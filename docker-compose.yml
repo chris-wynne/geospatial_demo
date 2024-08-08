@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  dev-environment:
+    build:
+      context: .
+      dockerfile: dockerfile_geoenv.dockerfile
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - "8888:8888"
+    tty: true

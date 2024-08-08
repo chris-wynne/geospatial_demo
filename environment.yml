@@ -1,0 +1,26 @@
+name: geoenv
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  - folium
+  - GeoAlchemy2
+  - geopandas
+  - matplotlib
+  - numpy
+  - openpyxl
+  - pandas
+  - pip
+  - plotly
+  - psycopg2
+  - pyodbc
+  - pytest
+  - pytest-mock
+  - requests-mock
+  - seaborn
+  - shapely
+  - SQLAlchemy
+  - streamlit
+  - tqdm
+  - jupyter
